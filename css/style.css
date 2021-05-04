@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
+    
+    font-family: "mi-fuente";
+}
+@font-face{
+    font-family: 'mi-fuente';
+    src: url(../fuente/unicode.arialr.ttf);
+}
+body{
+    background: #404040;
+}
+p {
+    color: #ffffff;
+    font-size: 160%;
+    padding: 3%;
+    text-align: justify;
+    line-height: 155%;
+}
+h3{
+    color: #00ffff;
+    font-size: 250%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    
+}
+h4{ /*titulos de las box*/
+    color: #c0ffff;
+    font-size: 230%;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{ 
+    color: #c0ffff;
+    font-size: 180%;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    color: #e0ffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #008080;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#banner-wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    width: 1200px;
+    height: 105px;
+    top: 0;
+    left:0;
+}
+.header-inner{
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: linear-gradient(to right,#1badad,#00ffff);
+    position: fixed;
+    z-index: 10;
+    box-sizing: border-box;
+}
+header .header-inner #logo-name{
+    width: 35%;
+    height: 100%;
+    font-size: 125%;
+    float: left; 
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+#logo-name h1 a{
+    color: #fff;
+}
+.l{
+    color: #ff0000;
+}
+.e{
+    color: #00ff00;
+}
+.d{
+    color: #0000ff;
+}
+header #logo img{
+    margin: 1% 2%;
+    float: left;
+    width: 70px;
+    border-radius: 50%;
+}
+/*NAVEGATION*/
+#menu-icon{
+    display: none;
+    font-size: 160%;
+}
+nav{
+    width: 50%;
+    height: 100px;
+    float: right;
+    padding: 35px 3px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+    font-size: 130%;
+    display: inline;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color:#000000;
+    padding: 2%
+}
+
+.nosotros{
+    padding: 3% 5%;
+}
+.nosotros p{
+    font-size: 150%;
+    text-align: justify;
+    padding: 0 4%;
+    text-indent: 3%;
+}
+.product-padding, .product-padding-paneles{
+    width: 27%;
+    height: 450px;
+    float: left;
+    margin: 3%;
+}
+.product-padding img, .product-padding-paneles img{
+    margin-top: 10px;
+    width: 275px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25%;
+    border: 7px outset #00ffff;
+}
+
+.product-padding p, .product-padding-paneles p{
+    margin-top: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+
+.product-padding ul{
+    color: #ffffff;
+    margin-top: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+.icon-wrap{
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    background: #00ffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 3%;
+}
+#tools-icon i{
+    margin: auto;
+    text-align: center;
+    color: #404040;
+    font-size: 425%;
+    padding: 5%;
+}
+#truck-icon i{
+    margin: auto;
+    text-align: center;
+    color: #404040;
+    font-size: 425%;
+    padding: 20%;
+}
+#robot-icon i{
+    margin: auto;
+    text-align: center;
+    color: #404040;
+    font-size: 425%;
+    padding: 15%;
+}
+.nosotros{
+}
+.producto{
+}
+.servicios{
+    float: left;
+    width: 100%;
+}
+.servicios-padding img{
+    width: 1000px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.banner-wrapper{
+    background: linear-gradient(to bottom,#404040,#316d6d)
+}
+footer{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.icon-text-icon{/*revisar*/
+    float: left;
+    width: 20%;
+    padding: 4%;
+    
+}
+.icon-text-icon ul li{
+   
+}
+.icon-text-text{
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+}
+.footer-nav{
+    text-align: right;
+}
+.footer-nav a{
+    font-size: 160%;
+    color: #09c9c9;
+    font-weight: 300;
+}
+.footer-nav a:hover{
+    color:#00ffff;
+}
+.social{
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 420%;
+    margin: 1%;
+    padding: 5%;
+    color:#00ffff;
+}
+.footer-second{
+    border-top: 1px solid #fff;
+    margin: 0;
+    background: linear-gradient(to bottom,#316e6e,#00ffff)
+}
+.footer-second p,.footer-second a{
+    text-align: center;
+    color:#000;
+    font: 160%;
+    line-height: 150%;
+}
